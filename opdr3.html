@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<title>Registreer een account</title>
+</head>
+<body>
+	<header>
+	  	<a href="opdr1.html">Ga Terug</a> 
+	</header>
+	<section>
+		<h1>
+			Maak een account aan
+		</h1>
+		<form>
+			<table>
+				<fieldset>
+					<legend>Persoonlijke Informatie</legend>
+					<p><label for=voornaam>Voornaam</label> <input id=name name=name type=text placeholder="Voorbeeld: Bart" name required/></p>
+					<p><label for=tussenvoegsel>Tussenvoegsel</label> <input id=middlename name=middlename type=text placeholder="Voorbeeld: van der"/></p>
+					<p><label for=achternaam>Achternaam</label> <input id=surname name=surname type=text placeholder="Voorbeeld: Berg" required/></p>
+					<p><label for=dob>Geboortedatum</label> <input id=dob name=dob type=date required/></p>
+				</fieldset>
+				<fieldset>
+					<legend>Wooninformatie</legend>
+					<p><label for=telefoon>Telefoon</label> <input id=telephone name=telephone placeholder="xxxx xxxxxx" type=tel required/></p>
+					<p><label for=email>Email</label> <input id=email name=email placeholder=naam@domein.com type=email required/></p>
+					<p><label>Adres</label> <textarea id=address name=address required></textarea></p>
+					<p><label for=postcode>Postcode</label> <input id=postcode name=postcode type=text placeholder=1234xx xxx required/></p>
+				</fieldset>
+				<p><input type="submit" /></p>
+			</table>
+		</form>
+	</section>
+	<footer>
+		<p>Copyright 2016 transavia</p>
+	</footer>
+</body>
+</html>
+
